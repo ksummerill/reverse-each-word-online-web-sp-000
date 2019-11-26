@@ -2,11 +2,11 @@
 # new_array: ["Hello", "there,", "and", "how", "are", "you?"]
 
 def reverse_each_word(sentence)
-  backwards = " "
+  backwards = ""
   new_array = sentence.split
     new_array.each do |words|
       words.reverse!
-      backwards << words
+      backwards << words.join
   end
   backwards
 end
