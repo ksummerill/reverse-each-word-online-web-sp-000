@@ -6,9 +6,9 @@ def reverse_each_word(sentence)
   new_array = sentence.split
     new_array.each do |words|
       backwards << words.reverse!
-  end
+    end
   new_sentence = backwards.join
-  backwards
+  new_sentence
 end
 
 
