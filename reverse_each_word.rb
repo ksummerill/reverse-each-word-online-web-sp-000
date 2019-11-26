@@ -11,11 +11,12 @@ def reverse_each_word(sentence)
   new_sentence
 end
 
+# .collect returns an array
 
-# def reverse_each_word(sentence)
-#   backwards = []
-#   new_array = sentence.split
-#     new_array.collect do |words|
-#       backwards << words.reverse!
-#   end
-# end
+def reverse_each_word(sentence)
+  backwards = []
+  new_array = sentence.split
+    new_array.collect do |words|
+      backwards << words.reverse!
+  end
+end
