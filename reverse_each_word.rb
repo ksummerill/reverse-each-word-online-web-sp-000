@@ -1,7 +1,7 @@
-def reverse_each_word(sentence)
+def reverse_each_word(array)
   backwards = []
-  sentence.each do | words |
-    backwards << sentence.reverse!
+  array.each do | words |
+    backwards << array.reverse!
   end
   # backwards
 end
