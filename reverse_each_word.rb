@@ -1,6 +1,4 @@
-# sentence: "Hello there, and how are you?"
-# new_array: ["Hello", "there,", "and", "how", "are", "you?"]
-
+# implement this method with .each to see difference in return values
 # def reverse_each_word(sentence)
 #   backwards = []
 #   new_array = sentence.split
@@ -11,8 +9,7 @@
 #   new_sentence
 # end
 
-# .collect returns an array
-
+# implement with .collect 
 def reverse_each_word(sentence)
   backwards = []
   new_array = sentence.split
